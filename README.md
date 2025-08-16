@@ -5,7 +5,7 @@
 
 | # | Link | Description | Due Date |
 |:-:|:----:|:-----------:|:--------:|
-| 0 | HW0 <br/> [ipynb](./hw0/hw0.ipynb), [pdf](./hw0/hw0.pdf), [md](./hw0/hw0.md)  | Familiarity with basic Python through Strings and loops. | 9/5 |
+| 0 | HW0 <br/> [ipynb](./hw0/hw0.ipynb), [pdf](./hw0/hw0.pdf), [md](./hw0/hw0.md)  | Familiarity with basic Python through Strings and loops. | Friday 9/5 @ midnight |
 | 1 | HW1 <br/> [starter ipynb], [pdf], [md]  | Loops, Lists | TBD |
 | 2 | HW2 <br/> [ipynb], [pdf], [md] | Functions, Files, I/O | TBD |
 | 3 | HW3 <br/> [ipynb], [pdf], [md] | -- | TBD |
