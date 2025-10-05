@@ -1,16 +1,8 @@
-```python
-
-```
-
-\begin{center}
-\begin{huge}
-DATA203 Foundational Python (Prof. Maull) / Fall 2025 / HW2
-\end{huge}
-\end{center}
+# DATA203 Foundational Python (Prof. Maull) / Fall 2025 / HW2
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
-| 25 | Wednesday, October  22 | _up to_ 15 hours |
+| 25 | Thursday, October  23 @ midnight | _up to_ 15 hours |
 
 
 * **GRADING:** Grading will be aligned with the completeness of the objectives.
@@ -25,13 +17,36 @@ DATA203 Foundational Python (Prof. Maull) / Fall 2025 / HW2
 * Build a dictionary and understand and use files for data.
 
 ## WHAT TO TURN IN
-You are being encouraged to turn the assignment in using the provided
-Jupyter Notebook.  To do so, make a directory in your Lab environment called
-`homework/hw2`.   Put all of your files in that directory.  Then zip or tar that directory,
-rename it with your name as the first part of the filename (e.g. `maull_hw2_files.zip`, `maull_hw2_files.tar.gz`), then
-download it to your local machine, then upload the `.zip` to Canvas.
+You will enjoy the highest benefits of the starter notebook
+if you clone the HW Github repository from your Jupyter Hub
+terminal with the command:
 
-If you do not know how to do this, please ask, or visit one of the many tutorials out there
+```bash
+  git clone https://github.com/kmhuads/f25_data203.git
+``` 
+
+This will ensure you have the most updated files and starter 
+notebook.
+
+Once you have cloned the repository, you can edit the
+starter notebook with your solution code.
+
+When you are done with your work, it will be best to zip
+your `hw2` folder and all sub-folders with the terminal command
+(one level outside your notebook folder):
+
+``` bash
+  zip -r data203_hw2_maull.zip ./hw2`
+ ```
+
+This will produce the file with all necessary supporting files
+(notebooks, data output, etc.) 
+then
+download it from the Jupyter Hub to your local machine, 
+then upload the `.zip` to Teams.
+
+If are confused on how to do this, please ask, 
+or visit one of the many tutorials
 on the basics of using zip in Linux.  
 
 If you choose not to use the provided notebook, you will still need to turn in a
