@@ -1,12 +1,4 @@
-```python
-
-```
-
-\begin{center}
-\begin{huge}
-DATA203 Foundational Python (Prof. Maull) / Fall 2025 / HW4
-\end{huge}
-\end{center}
+# DATA203 Foundational Python (Prof. Maull) / Fall 2025 / HW4
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
