@@ -1,4 +1,12 @@
-# DATA203 Foundational Python (Prof. Maull) / Fall 2025 / HW4
+```python
+
+```
+
+\begin{center}
+\begin{huge}
+DATA203 Foundational Python (Prof. Maull) / Fall 2025 / HW4
+\end{huge}
+\end{center}
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
@@ -135,6 +143,40 @@ _Output_:
 This will be a very simple change to your `mean_word_count()` code.
 
 
+**&#167; Task:**  **1.3 Write a third function called `word_count()` which takes and additional parameter, `method`, which can take one of two string values `"mean"` or `"median"`.**
+
+There are a lot of ways to do this, but one way is to just
+embed and call the functions you've already written based on the value of `method` (using
+`if..else`).
+
+Here is the function requirement specification:
+
+_function_ **NAME**: `word_count`
+
+
+_function_ **INPUT**
+
+  - `df`: a Pandas DataFrame (the Poetry dataset from HW3)
+  - `method`: a string that takes one of two values (`"median"` or `"mean"`)
+
+_function_ **OUTPUT**
+
+  - `None` if the method cannot be computed,
+  - otherwise, the mean or median word count of the `text` column of the dataset based on the
+    given `method`.
+
+_Code Example_:
+```python
+  df = pd.read_csv( [the HW3 poetry dataset] )
+  word_count(df, method="median")
+```
+
+_Output_:
+```python
+  120.7
+```
+
+
 **&#167; Task:**  **1.4 Use  `word_count()` to determine the word counts specified below:**
 
 To complete the next part, please review the `DataFrame.query()` method.  You will need it!
@@ -167,7 +209,7 @@ To complete this, you will need to:
 
 **&#167; Task:**  **BONUS:** Plot both mean and median word counts on the same bar plot.
 
-This will be worth and extra 2 points bonus.
+This will be worth an extra 2 points.
 
 
 
@@ -284,9 +326,9 @@ and propose a solution on what to do about it.
 
 We learned in lecture that 
 predictions are the basis 
-for machine learning algorithms.
+for machine learning algor.
 
-We would like to predict the price 
+Its nice to be able to predict the price 
 of a house, the weather next week and 
 even the outcome of the NBA finals.
 
@@ -302,7 +344,7 @@ in-game injuries, etc.) make accurate
 predictions very difficult indeed.
 
 We are going to leave those complex interactions
-alone and work on a simple prediction model
+alone for now and work on a simple prediction model
 using some Python libraries which 
 with greatly simplify our efforts.
 
@@ -382,8 +424,8 @@ Now you will have a training set file.
 
 Take 2 random poems labeled `political` and 2 that are labeled `notpolitical`.
 
-**HINT:** `df_clf.query('label="political"'').sample(2)` will return 2 random politically classified
-poems.
+**HINT:** `df_clf.query('label="political"').sample(2)` will return 2 random  
+poems classified `political`.
 
 **Answer:**
 
