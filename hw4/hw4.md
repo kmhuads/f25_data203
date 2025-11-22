@@ -270,7 +270,7 @@ all the work for you.  You just need to make sure
 that the DataFrame you send to it _only_ contains
 the rows with the themes in `theme_list`.
 
-Review [`DataFrame.query()`]() ... this is a one line code
+Review [`DataFrame.query()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html) ... this is a one line code
 implementation.
 
 Here is the function requirement specification:
@@ -326,7 +326,7 @@ and propose a solution on what to do about it.
 
 We learned in lecture that 
 predictions are the basis 
-for machine learning algor.
+for machine learning algorithm.
 
 Its nice to be able to predict the price 
 of a house, the weather next week and 
