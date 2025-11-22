@@ -74,16 +74,16 @@ inquiry into it.
 
 This time we are going to go deeper into the text and 
 eventually end up building a rudimentary model
-to classify the poems
+to classify the poems.
 
-As the English language continued to grow concommitant
+As American English continued to transform concommitant
 with the increase in literacy in the United States,
 influences can be seen on writing -- whether novels,
 poems, newspaper articles or personal letters.
 
 We will withhold interest in the historical trajectory
 of  African-American literacy and AAVE 
-(African-American Verncular English)
+(African-American Vernacular English)
 among postbellum African-American writing, but we will
 not curb our curiosities at a high level --  we have a 
 limited dataset and quite some scholarly na&#239;vet&#233; in
@@ -101,13 +101,12 @@ column of the dataset.
 **NOTE:** To get 
 an accurate word count, you will need to 
 remove punctuation.  **Use the code you wrote in HW2** 
-to properly remoce punctionation, otherwise you will lose some points
+to properly remove punctuation, otherwise you will lose some points
 for the wrong answer.
 
 Here is the detailed function requirement specification:
 
 _function_ **NAME**: `mean_word_count`
-
 
 _function_ **INPUT**
 
@@ -138,7 +137,8 @@ This will be a very simple change to your `mean_word_count()` code.
 **&#167; Task:**  **1.3 Write a third function called `word_count()` which takes and additional parameter, `method`, which can take one of two string values `"mean"` or `"median"`.**
 
 There are a lot of ways to do this, but one way is to just
-embed and call the functions you've already written based on the value of `method` (using
+embed and call the functions you've already written based 
+on the value of `method` (using
 `if..else`).
 
 Here is the function requirement specification:
@@ -171,7 +171,8 @@ _Output_:
 
 **&#167; Task:**  **1.4 Use  `word_count()` to determine the word counts specified below:**
 
-To complete the next part, please review the `DataFrame.query()` method.  You will need it!
+To complete the next part, please review the [`DataFrame.query()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html) 
+method.  You will need it!
 
 **Show the code:**
 
@@ -201,7 +202,7 @@ To complete this, you will need to:
 
 **&#167; Task:**  **BONUS:** Plot both mean and median word counts on the same bar plot.
 
-This will be worth an extra 2 points.
+This will be worth _up to_ an extra 2 points.
 
 
 
@@ -342,7 +343,7 @@ with greatly simplify our efforts.
 
 **&#167; Task:**  **3.1 Review `fasttext` and install `fasttext-numpy2` for text classification.**
 
-[`fasttext`]() is an open source library 
+[`fasttext`](https://github.com/facebookresearch/fastText) is an open source library 
 developed by Facebook Research which provides
 text classification tools that are accessible and 
 easy to use.  Familiarize yourself with its capabilities 
@@ -367,7 +368,8 @@ can do so and allow others to benefit!
 This library is called `fasttext-numpy2` and 
 it can be found here:
 
-* [`fasttext-numpy2`](https://github.com/simon-ging/fasttext-numpy2)  fork of `fasttext` by Simon Ging (thank you!)
+* [`fasttext-numpy2`](https://github.com/simon-ging/fasttext-numpy2)  
+  fork of `fasttext` by Simon Ging (thank you!)
 
 Install  `fasttext-numpy2` with:
 
